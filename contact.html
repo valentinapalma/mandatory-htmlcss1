@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <h1>Laboration 1</h1>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="about.html">Om mig</a></li>
+          <li><a href="movies.html">Filmer</a></li>
+          <li><a href="links.html">Länkar</a></li>
+          <li><a class="active" href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="form">
+       <form>
+         <label for="fname">Namn:</label>
+         <input type="text" id="fname" name="firstname" placeholder="Skriv ditt namn här" required>
+         <label for="email">Email:</label>
+         <input type="email" placeholder="Skriv din mailadress här" required>
+         <label for="country">Land:</label>
+         <select class="country" name="country" required>
+           <option value="Sverige">Sverige</option>
+           <option value="Norge">Norge</option>
+           <option value="Danmark">Danmark</option>
+           <option value="Finland">Finland</option>
+           <option value="Island">Island</option>
+           <option value="England">England</option>
+         </select>
+         <label for="message">Meddelande:</label>
+         <textarea name="message" placeholder="Skriv ett meddelande här" required></textarea>
+         <input type="submit" class="button" value="Skicka">
+      </form>
+    </div>
+
+    <footer id="main-footer">
+      <p>Copyright &copy; 2018 Valentina</p>
+    </footer>
+  </body>
+</html>

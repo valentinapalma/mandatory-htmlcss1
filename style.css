@@ -1,0 +1,212 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin:0;
+  width:100%;
+  color:#555;
+}
+
+h1 {
+  font-size:42px;
+}
+
+.container {
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+}
+
+.active {
+  background-color:firebrick;
+  border-radius: 5px;
+}
+
+/* HEADER */
+
+#main-header {
+  background-color:coral;
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+  height:80px;
+}
+
+/* Navigation */
+
+#navbar {
+  background-color:coral;
+  color:white;
+}
+
+#navbar ul {
+  padding:0;
+  margin-bottom: 10px;
+  list-style: none;
+  text-align: center;
+}
+
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  color:#fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding:15px;
+}
+
+#navbar a:hover{
+  color:#000;
+  text-decoration: underline;
+}
+
+/* Main */
+
+.main {
+  width: 100%;
+  padding: 30px 30px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+.main p {
+  margin-right:auto;
+  margin-left:auto;
+  font-family: Georgia, Times New Roman, serif;
+}
+
+.main h1{
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+}
+
+.about img {
+  width: 250px;
+  border-radius: 300px;
+}
+
+/* Filmer */
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+
+.filmer {
+    font-family: Georgia, Times New Roman, serif;
+    border-collapse: collapse;
+    width: 55%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.filmer td, .filmer th {
+    border: 2px solid #333;
+    padding: 8px;
+}
+
+.filmer th {
+    padding: 10px 18px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    text-transform:uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Hemsidor */
+
+.list a {
+  color:#333;
+  text-decoration: none;
+}
+
+.list a:hover{
+  color:firebrick;
+}
+
+.list {
+  margin:auto;
+  padding: 15px;
+  width:10%
+}
+
+ul {
+  text-align:left;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-family: Georgia, Times New Roman, serif;
+}
+
+li {
+  text-align: justify;
+}
+
+/* Contact */
+
+.form {
+  margin-top: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+input, select, textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  width:30%;
+  border-radius: 7px;
+  border: 1px solid coral;
+  font-family: Georgia, Times New Roman, serif;
+  font-size: 16px;
+  outline:none;
+}
+
+textarea {
+  resize:vertical;
+}
+
+label {
+  display:block;
+  padding:8px;
+  padding-top:10px;
+  padding-bottom:0;
+}
+
+select {
+  width:31.5%;
+}
+
+.button {
+  background-color: coral;
+  color:white;
+  font-size: 16px;
+  width:200px;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-bottom:60px;
+}
+
+.button:hover {
+  background-color:#333;
+}
+
+#main-footer{
+  background:#333;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+  height:300px;
+}
